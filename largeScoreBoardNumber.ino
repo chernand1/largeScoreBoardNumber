@@ -3,10 +3,6 @@
 #include "Librairies\segmentGenerator.cpp"
 #include "Librairies\charGenerator.cpp"
 
-#define LED_TYPE WS2812B
-#define LED_PIN 8
-#define COLOR_ORDER GRB
-
 void setup() {
 
   Serial.begin(9600);
